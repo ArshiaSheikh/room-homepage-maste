@@ -1,0 +1,115 @@
+body{
+    margin-top: 20px;
+    font-size: 10px;
+    font-family: 'Spartan', sans-serif;
+    color:hsl(0, 0%, 63%);
+  
+}
+h3{
+    color:hsl(0, 0%, 27%);
+    font-weight: 700;
+}
+
+    
+
+
+.navbar {
+    top: 12px;
+    left:30px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #fff;
+}
+
+/* second section */
+.innovative{
+    padding:30px 25px 30px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+.link-shop-now{
+    color:hsl(0, 0%, 27%);
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+}
+
+/* about section */
+
+.about-text{
+    
+    padding:3rem 25px 30px 25px;
+    
+
+}
+.col-lg-4 img{
+    width:100%;
+
+}
+
+.about-heading{
+    color:hsl(0, 0%, 5%);
+    font-weight: 800;
+    letter-spacing: 0.3rem;
+
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 321) {
+
+    .about-heading{
+        font-size: 1rem;
+        font-weight: 700;
+    letter-spacing: 0.3rem;
+    }
+
+}
+@media screen and (max-width: 320px)  {
+
+    .about-heading{
+        font-size: 1rem;
+        font-weight: 700;
+    letter-spacing: 0.1rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider-image {
+    height: 100%;
+    width: 100%
+}
